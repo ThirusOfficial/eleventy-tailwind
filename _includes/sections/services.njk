@@ -1,0 +1,16 @@
+<section class="px-8 pt-16">
+   <h2 class="text-center text-4xl font-bold">Many options to choose from</h2>
+   <p class="mx-auto mt-4 max-w-3xl text-center">
+      Velit perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit eligendi odit
+      consequatur architecto dolor!
+   </p>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-12">
+      {% import 'sections/service-macro.njk' as macro %}
+
+      {{ macro.service('shadow-sm', 'bg-cyan-300', 'Iste voluptatibus', 'Perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit. ') }}
+
+      {{ macro.service('shadow-lg', 'bg-pink-300', 'Architecto dolor', 'Perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit. ') }}
+
+      {{ macro.service('shadow-sm', 'bg-purple-300', 'Est quam expedita', 'Perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit. ') }}
+   </div>
+</section>
