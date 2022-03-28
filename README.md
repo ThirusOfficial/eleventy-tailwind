@@ -10,4 +10,4 @@ However, the most common complaints devs have with Tailwind CSS is that:
 Now these are the two problems that can be solved using the static site generator - Eleventy along with a templating engine called Nunjucks.
 
 Watch the complete tutorial on Youtube:
-[https://youtu.be/VcW3T9EOo5M](https://youtu.be/VcW3T9EOo5M]
+https://youtu.be/VcW3T9EOo5M
